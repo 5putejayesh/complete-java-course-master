@@ -56,6 +56,14 @@ public class PrimitiveDataTypes {
         double newfuelConsumptionUrban=fuelConsumptionUrban;
         System.out.println("New Urban Fuel consumption: "+newfuelConsumptionUrban);
         
+        System.out.println("Narrowwing / Downcasting :");
+        
+        //short to byte
+        //here there is a posibility of data loss
+        // so chose your data types carefully.
+        byte newPower= (byte) horsePower;
+        System.out.println("New Horse power: "+newPower);
+        
 	}
 
 }
