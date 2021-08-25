@@ -60,7 +60,7 @@ public class PrimitiveDataTypes {
         
         //short to byte
         //here there is a posibility of data loss
-        // so chose your data types carefully.
+        // so choose your data types carefully.
         byte newPower= (byte) horsePower;
         System.out.println("New Horse power: "+newPower);
         
