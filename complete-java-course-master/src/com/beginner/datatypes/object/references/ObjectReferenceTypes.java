@@ -12,7 +12,7 @@ package com.beginner.datatypes.object.references;
  *	9.String
  *
  * These classes provides extra functionality like String provide some usefull functions like
- * toUppercase(),isEmpty() etc.
+ * toUppercase(),isEmpty() etc..
  */
 
 public class ObjectReferenceTypes {
