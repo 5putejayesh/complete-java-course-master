@@ -5,6 +5,7 @@ package com.intermediate.encapsulation.athelete;
  * 		being accessed by code outside.
  * 
  * 		Data hiding.
+ * 		Class is a best example of encapsulation.
  */
 public class AtheleteApp {
 
