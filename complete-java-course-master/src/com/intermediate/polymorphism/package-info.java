@@ -20,8 +20,12 @@
  *	Method signature must be same.
  *
  *Method Overloading:-
- *	is a feature that  enables class have multiple methods with the same name.
- *	Creating a new 
+ *	is a feature that  enables class have multiple methods with the same name,
+ *  different parameters and different return types.
+ *  
+ * 	Private methods can be overloaded.
+ * 	Can't have same name,same parameters but different return type.
+ *	
  *
  *	Private methods can't be overridden :-
  *			because when superclass method is private it will not be visible to subclass.
