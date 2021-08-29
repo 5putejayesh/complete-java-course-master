@@ -37,5 +37,6 @@ public class StringFunctionsApp {
         }
 
         System.out.println("The replaced text: " + inputText.replace("N", "D"));
+        keyboardInput.close();
     }
 }
