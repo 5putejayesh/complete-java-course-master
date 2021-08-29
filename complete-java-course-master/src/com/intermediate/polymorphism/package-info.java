@@ -1,7 +1,4 @@
 /**
- * 
- */
-/**
  * @author PachputeJayesh
  *Polumorphism:-
  *	Polymorphism in java, is an object's ability to take on various forms.
