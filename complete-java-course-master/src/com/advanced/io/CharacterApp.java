@@ -13,7 +13,7 @@ public class CharacterApp {
         System.out.print("Name:  ");
         String name = userInput.nextLine();
 
-        System.out.println("Race (human or orc):  ");
+        System.out.println("Race (human or orc):   ");
         while (!userInput.hasNext("human") && !userInput.hasNext("orc")) {
             System.err.println("Invalid input, you need to type in human or orc.");
             userInput.nextLine();
