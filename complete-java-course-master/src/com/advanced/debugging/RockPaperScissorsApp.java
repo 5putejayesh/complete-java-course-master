@@ -29,6 +29,7 @@ public class RockPaperScissorsApp {
             }
             System.out.println();
         }
+        inputScanner.close();
     }
 
     private static boolean isValidInput(String userInput) {
