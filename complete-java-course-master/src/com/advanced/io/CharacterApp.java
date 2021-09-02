@@ -10,7 +10,7 @@ public class CharacterApp {
         System.out.println("Welcome to World of Warlords");
         System.out.println("Here you can create your character: ");
 
-        System.out.print("Name: ");
+        System.out.print("Name:  ");
         String name = userInput.nextLine();
 
         System.out.println("Race (human or orc): ");
