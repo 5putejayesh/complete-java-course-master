@@ -41,5 +41,6 @@ public class CharacterApp {
         System.out.printf("Race: \t\t%s\n", race);
         System.out.printf("Difficulty: \t%d\n", difficulty);
         System.out.printf("Nightmare mode is on: \t%b\n", isNightmareModeOn);
+        userInput.close();
     }
 }
