@@ -1,5 +1,7 @@
 package com.advanced.collections.arraylist;
 
+import java.util.Objects;
+
 public class Product {
 	private String name;
 	private double  price;
@@ -36,5 +38,28 @@ public class Product {
 		this.description = description;
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		if(this==obj) return true;
+		
+		if(obj== null || getClass()!=obj.getClass()) return false;
+		
+		Product product = (Product) obj;
+		
+		return Double.compare(price,product.price)==0 && Objects.equals(name,product.name) 
+				&& Objects.equals(description,product.description);
+	}
 	
+	@Override
+	public int hashCode() {
+		return Objects.hash(name,price,description);
+	}
+	
+	@Override
+	public String toString() {
+		return "Product{"+
+				"name='"+name+ '\''+
+				",Price='"+price+ '\''+
+				",description='"+description+ '\'';
+	}
 }
