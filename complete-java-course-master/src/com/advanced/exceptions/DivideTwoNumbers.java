@@ -11,7 +11,15 @@ public class DivideTwoNumbers {
 	
 	private static int divide(int dividend,int divisor){
 		try{
+			if(divisor==0){
+				throw new ZeroDivisorException(""
+						+ "The Divisor can't be zero!- Custom Exception.");
+			}
 			return dividend/divisor;
+		}
+		catch (ZeroDivisorException e) {
+			e.printStackTrace();
+			return 0;
 		}
 		catch (ArithmeticException e) {
 			System.err.println("The divisor can't be zero.");
