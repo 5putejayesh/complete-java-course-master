@@ -9,7 +9,7 @@ public class PathClassApp {
 		
 		String FILE_PATH="src/com/advanced/filehandling/PrintWriter.txt";
 		
-		Path path=Paths.get(FILE_PATH);
+		Path path=Paths.get(FILE_PATH).toAbsolutePath();
 		
 		System.out.println("toString: "+path.toString());
 		System.out.println("Get File Name: "+path.getFileName());
