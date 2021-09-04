@@ -73,6 +73,8 @@ public class GameService {
 				return false;
 			}
 		}
+		System.out.println("Congratulations You Won.!");
+		System.out.println("The word: "+new String(guessingArray));
 		return true;
 	}
 
