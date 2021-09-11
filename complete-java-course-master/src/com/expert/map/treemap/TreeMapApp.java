@@ -1,4 +1,4 @@
-package com.expert.map.terrmap;
+package com.expert.map.treemap;
 
 public class TreeMapApp {
 
