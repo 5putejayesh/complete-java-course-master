@@ -14,7 +14,7 @@ public class HashMapApp {
 		capitals.put("England","Londan");
 		capitals.put("India","New Delhi");
 		capitals.put("Russia","Moscow");
-		capitals.put("England","Oslo"); //Duplictes not allowed, london is overwritten by "Oslo".
+		capitals.put("England","Oslo"); //Duplictes not allowed, london is overwritten by "Oslo" here.
 		
 		System.out.println("The capital of England : "+capitals.get("England"));
 		capitals.remove("England", "Oslo");
